@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header {
+  text-align: center;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.333);
+  background-color: rgba(245, 245, 245, 0.537);
+}
+
+#userForm {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+.addUser-btn {
+  width: 100%;
+  color: whitesmoke;
+  background-color: blue;
+  border: none;
+  padding: 10px 6px;
+}
+
+.user_id {
+  display: flex;
+  flex-direction: column;
+}
+
+.username {
+  display: flex;
+  flex-direction: column;
+}
+
+.user_email {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #4caf50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.addUser-btn:hover {
+  background-color: rgb(6, 6, 212);
+}

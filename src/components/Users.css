@@ -1,0 +1,23 @@
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd76;
+}
+
+.delete-btn {
+  background-color: rgb(218, 36, 36);
+}
+
+.delete-btn:hover {
+  background-color: rgba(218, 36, 36, 0.772);
+}
